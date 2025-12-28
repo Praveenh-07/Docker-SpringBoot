@@ -9,7 +9,7 @@ public class HelloWorldController {
 	
 	@GetMapping("/")
 	public String helloWorld() {
-		return "{\"message\":\"Welcome to Docker Praveen-pushed new code\"}";
+		return "message: Welcome to Docker Praveen-pushed new code 28-12-2025";
 	}
 
 }
